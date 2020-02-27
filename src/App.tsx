@@ -1,8 +1,8 @@
 import React from 'react';
-import TodoApp from './TodoApp';
+import UserProfile from './components/UserProfile';
 
 const App: React.FC = () => {
-  return <TodoApp />;
+  return <UserProfile id={1} />;
 };
 
 export default App;
