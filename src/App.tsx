@@ -1,8 +1,8 @@
 import React from 'react';
-import Profile from './Profile';
+import Counter from './Counter';
 
 const App: React.FC = () => {
-  return <Profile username="goatking91" name="염승민" />;
+  return <Counter />;
 };
 
 export default App;
