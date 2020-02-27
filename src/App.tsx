@@ -1,8 +1,8 @@
 import React from 'react';
-import Counter from './Counter';
+import TodoApp from './TodoApp';
 
 const App: React.FC = () => {
-  return <Counter />;
+  return <TodoApp />;
 };
 
 export default App;
